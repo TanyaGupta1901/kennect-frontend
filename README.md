@@ -5,6 +5,8 @@ This an app that supports users to make posts and comments to them. The backend 
 -A post schema stores a reference to all its comments. 
 -A user can search for anything the post, or the comment in which the content is present that post is rendered.
 
+PLease find the code for backend here: https://github.com/TanyaGupta1901/kennect-backend
+
 Here's a demo video: (https://drive.google.com/file/d/1x64xDjAL4l6OshhsEtmu25nQNY3aXfWo/view?usp=sharing)
 
 ![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/a60d16b4-8b18-4cd1-b4e5-eaad0e3fd737)
