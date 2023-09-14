@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+This an app that supports users to make posts and comments to them. The backend is built using: Node.js and Express.js. Database: MongoDB Frontend: React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-A new user is created when a new username is entered, otherwise existing one is logged in. 
+-A user schema is designed to store the references to the posts created by the user. 
+-A post schema stores a reference to all its comments. 
+-A user can search for anything the post, or the comment in which the content is present that post is rendered.
 
-## Available Scripts
+Here's a demo video: (https://drive.google.com/file/d/1x64xDjAL4l6OshhsEtmu25nQNY3aXfWo/view?usp=sharing)
 
-In the project directory, you can run:
+![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/a60d16b4-8b18-4cd1-b4e5-eaad0e3fd737)
+![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/9b3cb2c4-dde5-4563-913e-b4d1709bde70)
+![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/46ab3f36-3cd0-4bb2-a57b-85147610f2db)
+![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/c2fa4a84-efb3-457a-acbf-920a5288fa3c)
+![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/ebbd54df-305f-4fee-bb05-fa18796a6156)
 
-### `npm start`
+Dockerized image
+![image](https://github.com/TanyaGupta1901/kennect-frontend/assets/63922082/30ff8576-b182-470e-a206-5f8429e5ed80)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
